@@ -26,7 +26,7 @@ class _TransactionFormState extends State<TransactionForm> {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topLeft: Radius.circular(20), topRight: Radius.circular(20))),
       elevation: 5,
       child: Padding(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(10.0),
         child: Column(
           children: [
             TextField(
@@ -46,7 +46,7 @@ class _TransactionFormState extends State<TransactionForm> {
                   onPressed: _submitForm,
                   child: Text(
                     'Nova Transação',
-                    style: TextStyle(color: Colors.red),
+                    style: TextStyle(color: Colors.green),
                   ),
                 ),
               ],
