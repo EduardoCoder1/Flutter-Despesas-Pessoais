@@ -29,7 +29,7 @@ class TransactionList extends StatelessWidget {
                   ),
                   decoration: BoxDecoration(
                       border: Border.all(color: Colors.green, width: 1.5)),
-                  padding: EdgeInsets.all(5),
+                  padding: EdgeInsets.all(5.0),
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
