@@ -2,7 +2,6 @@ import 'package:despesas_pessoais/components/transaction_form.dart';
 import 'package:flutter/material.dart';
 import '../models/transaction.dart';
 import 'dart:math';
-import 'components/transaction_form.dart';
 import 'components/transaction_list.dart';
 
 void main() => runApp(ExpensesApp());
@@ -27,10 +26,21 @@ class _MyHomePageState extends State<MyHomePage> {
     Transaction(
       id: 't1',
       title: 'Novo Tênis',
-      value: 310,
+      value: 300,
       date: DateTime.now(),
     ),
-
+    Transaction(
+      id: 't2',
+      title: 'Camisa',
+      value: 250,
+      date: DateTime.now(),
+    ),
+    Transaction(
+      id: 't3',
+      title: 'Short',
+      value: 140,
+      date: DateTime.now(),
+    ),
   ];
 
   _addTransaction(String title, double value) {
