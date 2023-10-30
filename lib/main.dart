@@ -30,18 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
       value: 310,
       date: DateTime.now(),
     ),
-    Transaction(
-      id: 't2',
-      title: 'Camisa',
-      value: 250,
-      date: DateTime.now(),
-    ),
-    Transaction(
-      id: 't3',
-      title: 'Short',
-      value: 140,
-      date: DateTime.now(),
-    ),
+
   ];
 
   _addTransaction(String title, double value) {
